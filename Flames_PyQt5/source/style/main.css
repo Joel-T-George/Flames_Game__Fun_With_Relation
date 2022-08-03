@@ -1,0 +1,207 @@
+*{
+	background-color: #151B25;
+	color: #fff;
+	
+}
+.person1{
+	font-size: 25px;
+	padding: 3px;
+	color: #fff;
+	border-radius: 3px;
+	font-family: sans-serif,Verdana;
+
+
+}
+.person1:focus{
+	border: 1px solid #9900cc;
+}
+.person1:hover{
+	background-color: #1C3F60;
+	color: #fff;
+
+}
+.person1:disabled{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0.273, stop:0 #1C3F60, stop:1 #660066);
+	border: 1px solid #660066;
+}
+.person2{
+	font-size: 25px;
+	padding: 3px;
+	color: #fff;
+	border-radius: 3px;
+	font-family: sans-serif,Verdana;
+}
+.person2:hover{
+	background-color: #1C3F60;
+	border-radius: 6px;
+}
+.person2:focus{
+	border: 1px solid #9900cc;
+}
+.person2:disabled{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0.273, stop:0 #1C3F60, stop:1 #003399);
+	font-weight: bold;
+	border: 1px solid #003399;
+}
+.Chkbtn{
+	font-size: 19px;
+	color: #fff;
+	padding: 30px;
+	border-width: 15px;
+	border-radius: 3px;
+	background-color: #214358;
+	font-family: sans-serif,Verdana;
+	
+}
+.Chkbtn:disabled{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0.273, stop:0 #660066, stop:1 #003399);
+	border: 1px solid #9900cc;
+
+}
+
+.Restbtn{
+	font-size: 18px;
+	color: #fff;
+	padding: 10px;
+	border-width: 7px;
+	border-radius: 3px;
+	background-color: #214358;
+	font-family: sans-serif,Verdana;
+	
+}
+
+.Quitbtn{
+	font-size: 18px;
+	color: #fff;
+	padding: 10px;
+	border-width: 7px;
+	border-radius: 3px;
+	background-color: #214358;
+	font-family: sans-serif,Verdana;
+	
+}
+.Chkbtn:hover{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0.273, stop:0 #ff66cc, stop:1 #0000ff);
+	
+}
+.Quitbtn:hover{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0.273, stop:0 #D01110, stop:1 #ff3300);
+}
+.Restbtn:hover{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0.273, stop:0 #006600, stop:1 #33cc33);
+}
+
+
+.remletter{
+
+	font-size: 12px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0.273, stop:0 #660066, stop:1 #151B25);
+	border-radius: 3px;
+	padding: 2px;
+
+}
+.remletter:hover{
+	background-color: #1C3F60;
+	
+}
+
+.strikes{
+	font-size: 13px;
+	border-radius: 3px;
+	padding: 3px;
+}
+.strikes:hover{
+	background-color: #1C3F60;
+
+}
+
+.rounds{
+	font-size: 14px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0.273, stop:0 #1C3F60, stop:1 #151B25);
+	border-radius: 5px;
+	padding: 3px;
+	font-family: sans-serif,Verdana;
+
+}
+.rounds:hover{
+	background-color: #1C3F60;
+}
+.bondinglevel{
+	font-size: 13px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0.273, stop:0 #151B25, stop:1 #420264);
+	padding: 5px;
+	border-radius: 5px;
+	font-family: sans-serif,Verdana;
+}
+.bondinglevel:hover{
+	background-color: #420264;
+	
+}
+.bondmess{
+	font-size: 13px;
+	padding: 4px;
+	border-radius: 3px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0.273, stop:0 #151B25, stop:1 #341948);
+	font-family: sans-serif,Verdana;
+}
+.bondmess:hover{
+	background-color: #341948;
+}
+.balw{
+	font-size: 12px;
+	border-radius: 3px;
+	padding: 2px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0.273, stop:0 #003060, stop:1 #151B25);	
+	font-family: sans-serif,Verdana;
+}
+.balw:hover{
+	background-color: #003060;
+}
+.balc{
+	font-size: 13px;
+	border-radius: 3px;
+	padding: 5px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0.273, stop:0 #151B25, stop:1 #1C3F60);	
+}
+.balc:hover{
+	background-color: #1C3F60;
+}
+.alertbox{
+	font-size: 12px;
+	background-color: #1C3F60;
+	font-family: sans-serif,Verdana;
+}
+.alertbox QLabel{
+	font-size: 15px;
+	background-color: #1C3F60;
+	font-family: sans-serif,Verdana;
+
+}
+.alertbox QPushButton{
+	font-size: 14px;
+	padding: 10px;
+	padding-right: 17px;
+	padding-left: 17px;
+	background-color: #003399;
+	border-radius: 3px;
+	border: 1px solid #151B25;
+
+
+}
+.alertbox QPushButton:hover{
+		background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0.273, stop:0 #003399, stop:1 #660066);	
+		border: 1px solid #fff;
+}
+
+.footer{
+	font-size: 14px;
+	font-family: sans-serif,Verdana;
+
+
+}
+.notes{
+	font-size: 16px;
+	font-family: sans-serif,Verdana;
+	color: #fff
+
+}
