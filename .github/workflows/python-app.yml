@@ -31,4 +31,5 @@ jobs:
    
     - name: Running Script
       run: |
+        cd Flames_PyQt5
         python flames.py
